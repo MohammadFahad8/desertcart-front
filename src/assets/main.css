@@ -1,12 +1,5 @@
 @import './base.css';
 
-#app {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-
-  font-weight: normal;
-}
 
 a,
 .green {
@@ -14,22 +7,49 @@ a,
   color: hsla(160, 100%, 37%, 1);
   transition: 0.4s;
 }
+.dc-jumbotron {
+  background-image: url("./desertbg.6d976998.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.dc-search-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25%;
+  height: 100%;
+  transition: opacity .3s ease-in-out;
+  opacity: 1;
+
+}
+.dc-search-container-search-bar {
+border-radius: 25px;
+}
+
+.jumbotron-filter-bar {
+  background-color: white;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+
+.dc-jumbotron__search-title {
+  text-align: left;
+  margin-bottom: 15px;
+  font-size: 22px;
+  color: #2e363e;
+  line-height: 1.6;
+  font-weight: 500;
+}
 
 @media (hover: hover) {
   a:hover {
     background-color: hsla(160, 100%, 37%, 0.2);
-  }
-}
-
-@media (min-width: 1024px) {
-  body {
-    display: flex;
-    place-items: center;
-  }
-
-  #app {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 0 2rem;
   }
 }

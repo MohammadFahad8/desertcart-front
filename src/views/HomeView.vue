@@ -1,9 +1,10 @@
 <script setup>
-import TheWelcome from "../components/TheWelcome.vue";
+import jumbotron from "../components/Jumbotron.vue";
+
 </script>
 
 <template>
   <main>
-    <TheWelcome />
+<jumbotron></jumbotron>
   </main>
 </template>
