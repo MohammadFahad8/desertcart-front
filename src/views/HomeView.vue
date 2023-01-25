@@ -1,9 +1,12 @@
 <script setup>
-import TheWelcome from "../components/TheWelcome.vue";
+import jumbotron from "../components/Jumbotron.vue";
+import TilesTestimonial from "../components/Tiles-Testimonial.vue";
+
 </script>
 
 <template>
   <main>
-    <TheWelcome />
+<jumbotron></jumbotron>
+  <TilesTestimonial></TilesTestimonial>
   </main>
 </template>
