@@ -1,7 +1,7 @@
 <template>
 
   <div class="dc-jumbotron">
-    <div class="row w-100 justify-content-center align-items-center">
+    <div class="row h-100 w-100 justify-content-center align-items-center">
       <div class="col-6">
         <h1 class="dc-jumbotron__search-title">Find 100M+ Products Online</h1>
         <div class="input-group mb-3">
@@ -29,7 +29,9 @@
           <input type="text" class="border-0 form-control dc-search-container-search-bar"
             placeholder="Search for any product...">
         </div>
-        <div class="row w-100 justify-content-center align-items-center">
+      </div>
+    </div>
+    <div class="row w-100 justify-content-center align-items-center">
           <div class="col-6">
             <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
   <div class="carousel-indicators">
@@ -41,37 +43,28 @@
     <div class="carousel-item active" data-bs-interval="10000">
 
       <div class="carousel-caption d-none d-md-block">
-        <h5>First slide label</h5>
-        <p>Some representative placeholder content for the first slide.</p>
+
+        <p class="text-white ">Over 100 Million Items.</p>
       </div>
     </div>
     <div class="carousel-item" data-bs-interval="2000">
 
       <div class="carousel-caption d-none d-md-block">
-        <h5>Second slide label</h5>
-        <p>Some representative placeholder content for the second slide.</p>
+
+        <p class="text-white ">Secure and Convenient Shopping</p>
       </div>
     </div>
     <div class="carousel-item">
 
       <div class="carousel-caption d-none d-md-block">
-        <h5>Third slide label</h5>
-        <p>Some representative placeholder content for the third slide.</p>
+
+        <p class="text-white ">3 Day Shipping Available</p>
       </div>
     </div>
   </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
+
 </div>
           </div>
         </div>
-      </div>
-    </div>
   </div>
 </template>

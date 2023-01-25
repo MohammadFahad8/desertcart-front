@@ -12,10 +12,33 @@ a,
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 0;
-    height: 50vh;
+    height: 60vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+.carousel-indicators [data-bs-target] {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+
+}
+
+.carousel-dark .carousel-indicators [data-bs-target] {
+background-color: #fff;
+}
+
+.carousel-caption p {
+  font-size: 18px;
+}
+.carousel-inner {
+  overflow: unset;
+}
+
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
 }
 
 .dc-search-container {
